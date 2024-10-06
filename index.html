@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Travel Blog</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+     <div class="wrapper">
+    <nav class="navbar">
+        <ul class="navbar-items">
+            <li class="navbar-item"><a href="#home">Home</a></li>
+            <li class="navbar-item"><a href="#reactjs">React JS</a></li>
+            <li class="navbar-item"><a href="#js">Javascript</a></li>
+            <li class="navbar-item"><a href="#tailwindcss">Tailwind CSS</a></li>
+            <li class="navbar-item"><a href="#about">About Me</a></li>
+            <li class="navbar-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- intro -->
+    <header id="home">
+        <h1>Adventures Around the World</h1>
+        <p>Exploring the globe, with one click. Join me on a virtual journey across breathtaking landscapes, vibrant
+            cultures, and hidden gems around the world. Whether you're an adventurer at heart or a tech enthusiast, my
+            blog brings you the best of both worlds—immersive travel experiences and the latest trends in technology.
+            Each post is crafted to inspire your next adventure or spark your curiosity about new destinations and
+            innovative ideas. Let's explore the wonders of our world together, one story at a time.</p>
+    </header>
+
+
+
+    <!-- blog section -->
+    <section id="blog-posts">
+        <article class="card" id="reactjs">
+
+            <h3>React JS</h3>
+            <p><strong>Summary:</strong> A deep dive into React JS and why it's popular for building user interfaces.
+            </p>
+            <p>React JS is a JavaScript library for building interactive user interfaces. It allows developers to create
+                reusable UI components, making the development process more efficient and easier to maintain.</p>
+            <img class="images" src="./assets/reactjs.png" alt="React JS">
+            <ul>
+                <li>Component-based architecture for reusable code.</li>
+                <li>Virtual DOM improves performance and updates.</li>
+                <li>Widely adopted for building dynamic and scalable applications.</li>
+                <li>Great for building single-page applications (SPAs).</li>
+            </ul>
+            <video controls autoplay muted loop>
+                <source src="./assets/2887463-sd_640_360_25fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </article>
+
+        <article class="card" id="js">
+            <h3>Javascript</h3>
+            <p><strong>Summary:</strong> Exploring the essential role of JavaScript in modern web development.</p>
+            <p>JavaScript is the backbone of modern web applications. From interactive websites to powerful web
+                services, it's the go-to programming language for developers looking to create dynamic content.</p>
+            <img class="images" src="./assets//js.png" alt="JavaScript">
+            <ul>
+                <li>Enables interactivity on websites (e.g., form validation, animations).</li>
+                <li>Works seamlessly across all major browsers.</li>
+                <li>Foundation for modern frameworks like React, Angular, and Vue.</li>
+                <li>Extensive ecosystem of libraries and tools for web development.</li>
+            </ul>
+            <video controls autoplay muted loop>
+                <source src="./assets/2887463-sd_640_360_25fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </article>
+
+        <article class="card" id="tailwindcss">
+            <h3>Tailwind CSS</h3>
+            <p><strong>Summary:</strong> Simplifying web styling with Tailwind CSS.</p>
+            <p>Tailwind CSS is a utility-first CSS framework that allows developers to rapidly build custom designs
+                without having to leave their HTML. It’s a powerful and flexible tool for creating beautiful and
+                responsive designs quickly.</p>
+            <img class="images" src="./assets/tailwind css.png" alt="Tailwind CSS">
+            <ul>
+                <li>Utility-first approach simplifies CSS styling.</li>
+                <li>Highly customizable with configuration files.</li>
+                <li>Reduces the need for custom CSS and repetitive styles.</li>
+                <li>Responsive design made easier with built-in breakpoints.</li>
+            </ul>
+            <video controls autoplay muted loop>
+                <source src="./assets/2887463-sd_640_360_25fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </article>
+
+    </section>
+
+
+    <!-- about me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm Bhavesh Chaudhari, a passionate traveler and coder. I love exploring new destinations and sharing
+            my experiences with the world. This blog is a way to combine my love for travel and technology. Here, you
+            can expect stories from my travels, tips for your own adventures, and insights on tech topics like React,
+            JavaScript, and Tailwind CSS.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out if you have any questions or want to connect!</p>
+        <ul class="social-links">
+            <li> <a href="chaudhri.mvbhavesh15@gmail.com">Email</a></li>
+            <li><a
+                    href="https://www.linkedin.com/search/results/people/?firstName=Sejal&lastName=Choubey&origin=SEO_PSERP&sid=Yd~">LinkedIn</a>
+            </li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+
+        <!-- contact form -->
+        <form action="#" method="post">
+            <div class="form-blocks">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+            </div>
+
+            <div class="form-blocks">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+            </div>
+
+            <div class="form-blocks">
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
+            </div>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TourReal | All rights reserved.</p>
+        <ul>
+            <li><a href="#home">Home</a></li>
+        </ul>
+    </footer>
+</div>
+
+</body>
+
+</html>
